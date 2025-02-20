@@ -1,0 +1,167 @@
+src/libcoap_1_la-uri.lo: src/uri.c coap_config.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/assert.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include-fixed/features.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_config.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_arch_features.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/cdefs.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/stdio.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stddef.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/types.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/wordsize.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/kernel_types.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/typesizes.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/pthreadtypes.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/sched.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_stdio.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/wchar.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/wchar.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_mutex.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/pthread.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sched.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/time.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/time.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_clk_tck.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/signal.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/sigset.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/initspin.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/sigthread.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_pthread.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stdarg.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/stdio_lim.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/string.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/ctype.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_touplow.h \
+ include/coap/mem.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/stdlib.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/waitflags.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/waitstatus.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/endian.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/endian.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/types.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/select.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/select.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/sysmacros.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/alloca.h \
+ include/coap/debug.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/syslog.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/syslog.h \
+ include/coap/pdu.h include/coap/uri.h include/coap/hashkey.h \
+ include/coap/str.h include/coap/pdu.h include/coap/option.h \
+ include/coap/bits.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stdint.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include-fixed/stdint.h \
+ include/coap/uri.h
+
+coap_config.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/assert.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include-fixed/features.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_config.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_arch_features.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/cdefs.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/stdio.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stddef.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/types.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/wordsize.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/kernel_types.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/typesizes.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/pthreadtypes.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/sched.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_stdio.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/wchar.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/wchar.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_mutex.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/pthread.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sched.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/time.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/time.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_clk_tck.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/signal.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/sigset.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/initspin.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/sigthread.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_pthread.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stdarg.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/stdio_lim.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/string.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/ctype.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_touplow.h:
+
+include/coap/mem.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/stdlib.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/waitflags.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/waitstatus.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/endian.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/endian.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/types.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/select.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/select.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/sysmacros.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/alloca.h:
+
+include/coap/debug.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/syslog.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/syslog.h:
+
+include/coap/pdu.h:
+
+include/coap/uri.h:
+
+include/coap/hashkey.h:
+
+include/coap/str.h:
+
+include/coap/pdu.h:
+
+include/coap/option.h:
+
+include/coap/bits.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stdint.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include-fixed/stdint.h:
+
+include/coap/uri.h:

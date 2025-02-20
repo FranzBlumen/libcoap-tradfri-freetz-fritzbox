@@ -1,0 +1,24 @@
+src/libcoap_1_la-hashkey.lo: src/hashkey.c include/coap/hashkey.h \
+ include/coap/str.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/string.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include-fixed/features.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_config.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_arch_features.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/cdefs.h \
+ /home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stddef.h
+
+include/coap/hashkey.h:
+
+include/coap/str.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/string.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include-fixed/features.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_config.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/bits/uClibc_arch_features.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/../../../../mipsel-linux-uclibc/include/sys/cdefs.h:
+
+/home/francisco/freetz-ng/toolchain/build/mipsel_gcc-4.6.4_uClibc-0.9.29/mipsel-linux-uclibc/bin-ccache/../lib/gcc/mipsel-linux-uclibc/4.6.4/include/stddef.h:
