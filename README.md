@@ -1,16 +1,5 @@
 esta es una modificacion para utilizarse en freetz
 
-#!/bin/bash
-
-git clone --depth 1 --recursive -b dtls https://github.com/home-assistant/libcoap.git
-cd libcoap
-./autogen.sh
-#LDFLAGS=-static ./configure  --build=i386-linux-gnu --target=mipsel-linux --host=mipsel-linux   --disable-ipv6  --without-included-gettext --disable-nls --without-gnutls --without-pthread  --disable-documentation --disable-shared --without-debug  CC="/home/francisco/freetz-ng/toolchain/target/bin-ccache/mipsel-linux-gcc"   CFLAGS="-Os -pipe -march=4kc -Wa,--trap -D COAP_DEBUG_FD=stderr"
-./configure --build=i386-linux-gnu --target=mipsel-linux --host=mipsel-linux   --disable-documentation --disable-shared --without-debug CC="/home/francisco/freetz-ng/toolchain/target/bin-ccache/mipsel-linux-gcc"   CFLAGS="-Os -pipe -march=4kc -Wa,--trap -D COAP_DEBUG_FD=stderr"
-make
-make install
-
-
 
 ![WhatsApp Image 2025-02-21 at 13 51 36](https://github.com/user-attachments/assets/9c224a59-cada-4b6a-ac37-ed8a97a234ce)
 ![WhatsApp Image 2025-02-21 at 13 51 36 (1)](https://github.com/user-attachments/assets/cb616299-0412-4ff5-9740-c5da319b0118)
