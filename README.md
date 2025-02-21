@@ -7,6 +7,23 @@ esta es una modificacion para utilizarse en freetz
 
 
 
+Den MIPS-Compiler zum Pfad hinzufügen:
+
+export PATH=/pfad/zu/freetz/toolchain/target/bin:$PATH
+
+
+#!/bin/bash
+
+git clone --depth 1 --recursive -b dtls https://github.com/home-assistant/libcoap.git
+cd libcoap
+./autogen.sh
+#LDFLAGS=-static ./configure  --build=i386-linux-gnu --target=mipsel-linux --host=mipsel-linux   --disable-ipv6  --without-included-gettext --disable-nls --without-gnutls --without-pthread  --disable-documentation --disable-shared --without-debug  CC="/home/francisco/freetz-ng/toolchain/target/bin-ccache/mipsel-linux-gcc"   CFLAGS="-Os -pipe -march=4kc -Wa,--trap -D COAP_DEBUG_FD=stderr"
+./configure --build=i386-linux-gnu --target=mipsel-linux --host=mipsel-linux   --disable-documentation --disable-shared --without-debug CC="/home/francisco/freetz-ng/toolchain/target/bin-ccache/mipsel-linux-gcc"   CFLAGS="-Os -pipe -march=4kc -Wa,--trap -D COAP_DEBUG_FD=stderr"
+make
+make install
+
+
+
 
 
 
