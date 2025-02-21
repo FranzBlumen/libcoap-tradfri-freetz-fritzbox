@@ -1,4 +1,4 @@
-esta es muna modificacion para utilizarse en freetz
+esta es una modificacion para utilizarse en freetz
 
 ![WhatsApp Image 2025-02-21 at 13 51 36](https://github.com/user-attachments/assets/9c224a59-cada-4b6a-ac37-ed8a97a234ce)
 ![WhatsApp Image 2025-02-21 at 13 51 36 (1)](https://github.com/user-attachments/assets/cb616299-0412-4ff5-9740-c5da319b0118)
