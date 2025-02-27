@@ -24,7 +24,7 @@ make install
 
 
 
-
+./configure --build=i386-linux-gnu --target=mips-linux --host=mips-linux --disable-documentation --disable-shared --without-debug CC="/home/francisco/freetz-ng/toolchain/target/bin-ccache/mips-linux-gcc" CFLAGS="-Os -pipe -march=4kc -Wa,--trap -D COAP_DEBUG_FD=stderr"
 
 
 
